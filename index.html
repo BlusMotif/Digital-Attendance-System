@@ -168,7 +168,7 @@
 
         exportBtn.addEventListener('click', function() {
             const printWindow = window.open('', '', 'width=600,height=400');
-            printWindow.document.write('<html><head><title>BTECH Computer Science (300) Attendance Records</title></head><body>');
+            printWindow.document.write('<html><head><title>Attendance Records</title></head><body>');
             printWindow.document.write('<h1>Attendance Records</h1>');
             printWindow.document.write(document.getElementById('records-table').outerHTML);
             printWindow.document.write('</body></html>');
